@@ -20,3 +20,6 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 
 常用损失函数解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)
 ！！！思考一个问题，都是分类问题，为何神经网络的损失函数与GBDT之类的不同（至少名称不同）呢？
+
+### 计算图：动态图和Autograph
+图：TensorFlow通过计算图的形式来表述计算的编程系统，其中所有计算都会被转化为计算图上的节点，
