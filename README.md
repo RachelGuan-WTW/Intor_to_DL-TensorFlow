@@ -1,6 +1,8 @@
 # TF-IntrodutionCourse
 
-课程中出现了以下相关知识点：
+课程开始之前有个视频[《一天搞懂深度学习》](https://v.youku.com/v_show/id_XNDM4Mzc4Mjk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_1.dscreenshot)，可以用于深度学习粗了解。
+
+本课程中出现了以下相关知识点：
 ### LSTM网络(Long Short-Term Memory)
 RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
 原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)
