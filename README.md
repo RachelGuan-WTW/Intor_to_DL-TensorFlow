@@ -1,4 +1,4 @@
-# TensorFlow基础、深度学习原理、与相关项目
+# TensorFlow基础、深度学习原理与相关项目
 
 课程开始之前有个视频[《一天搞懂深度学习》](https://v.youku.com/v_show/id_XNDM4Mzc4Mjk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_1.dscreenshot)，可以用于深度学习粗了解。
 
@@ -24,6 +24,8 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 
 常用损失函数解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)，有mse,二分类交叉熵，多分类交叉熵、稀疏多分类交叉熵。
 ！！！思考一个问题，都是分类问题，为何神经网络的损失函数与GBDT之类的不同（至少名称不同）呢？
+
+[Focal Loss](https://www.zhihu.com/question/63581984)是针对于不平衡数据的损失函数。
 
 
 ### 计算图：静态图、动态图和Autograph
