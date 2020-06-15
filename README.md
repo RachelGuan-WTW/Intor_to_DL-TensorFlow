@@ -22,8 +22,9 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 常用优化器解释见[网址](https://www.jianshu.com/p/b59f40152989)
 其中ADAM是一种自适应学习率的方法，综合了之前算法的优点，可以对付稀疏求解与非平稳目标。
 
-常用损失函数解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)
+常用损失函数解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)，有mse,二分类交叉熵，多分类交叉熵、稀疏多分类交叉熵。
 ！！！思考一个问题，都是分类问题，为何神经网络的损失函数与GBDT之类的不同（至少名称不同）呢？
+
 
 ### 计算图：静态图、动态图和Autograph
 图：TensorFlow通过计算图的形式来表述计算的编程系统，其中所有计算都会被转化为计算图上的节点。TensorFlow1.x版本中是静态图，2.x版本中变成了动态图，调试完毕后在函数上面加上@tf.function变成静态图。
