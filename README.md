@@ -27,9 +27,9 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 **Focal Loss**是针对于不平衡数据的损失函数，给难分类样本一个更大的权重。
 1. 详细的论文解读可见[网址](https://blog.csdn.net/qq_34199326/article/details/83824778)
 2. 上述文章基于传统的二分类交叉熵损失函数，其具体的解释可以参见[网址](https://www.jianshu.com/p/b07f4cd32ba6)
+3. 多分类交叉熵损失函数可见[网址](https://blog.csdn.net/u014380165/article/details/77284921)
 
-！！！思考一个问题，都是分类问题，为何神经网络的损失函数与GBDT之类的不同（至少名称不同）呢？
-
+！！！思考一个问题，都是分类问题，为何神经网络的损失函数与GBDT之类的不同呢？
 
 
 
