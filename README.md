@@ -19,10 +19,10 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 可见[网址](https://www.jianshu.com/p/765d603c76a0)
 
 ### 神经网络中常使用的优化器与损失函数
-常用优化器解释见[网址](https://www.jianshu.com/p/b59f40152989)
+**常用优化器**解释见[网址](https://www.jianshu.com/p/b59f40152989)
 其中ADAM是一种自适应学习率的方法，综合了之前算法的优点，可以对付稀疏求解与非平稳目标。
 
-常用损失函数解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)，有mse,二分类交叉熵，多分类交叉熵、稀疏多分类交叉熵。
+**常用损失函数**解释见[网址](https://www.cnblogs.com/panchuangai/p/12567978.html)，有mse,二分类交叉熵，多分类交叉熵、稀疏多分类交叉熵。
 
 **Focal Loss**是针对于不平衡数据的损失函数，给难分类样本一个更大的权重。
 1. 详细的论文解读可见[网址](https://blog.csdn.net/qq_34199326/article/details/83824778)
