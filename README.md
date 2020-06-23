@@ -41,8 +41,8 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 
 ### 神经网络各层的含义及作用
 一个完整的神经网络模型通常会包括以下各层：
-- 输入后的第一层+激活函数
-- 池化
+- 输入后的第一层+激活函数（卷积层）：
+- 池化:通常跟在卷积层后，降低输出的特征向量，防止过拟合。具体的解释参见[网址](https://blog.csdn.net/danieljianfeng/article/details/42433475)
 - flatten
 - 全连接层
 - 输出层
