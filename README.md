@@ -1,4 +1,4 @@
-# TensorFlow基础、深度学习原理与相关项目
+# 深度学习入门，TensorFlow实现与部分项目
 
 课程开始之前有个视频[《一天搞懂深度学习》](https://v.youku.com/v_show/id_XNDM4Mzc4Mjk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_1.dscreenshot)，可以用于深度学习粗了解。
 
