@@ -44,6 +44,8 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 - 输入后的第一层+激活函数（卷积层）：
   - 卷积核+偏移：现有的深度学习程序会根据训练数据来自动确定；但我并不了解程序是如何确定的
   - [padding](https://blog.csdn.net/baidu_36161077/article/details/81165531)
+  - 输入张量的维度（32，255，255，3）的含义：32代表batch,255*255代表图片的大小，3代表通道数（如果是图片转化后的张量，这代表RGB彩色）
+  - 输出张量的维度与输入张量相同，不同的是数值：第一位为32batch不变，第二位*第三位为大小，与卷积核大小+padding有关，第四位是通道数，等于卷积核的通道数
 - 池化:通常跟在卷积层后，降低输出的特征向量，防止过拟合。具体的解释参见[网址](https://blog.csdn.net/danieljianfeng/article/details/42433475)
 - flatten:常用在卷积层到全连接层的过度。具体的解释参见[网址](https://blog.csdn.net/program_developer/article/details/80853425)
 - 全连接层与输出层
