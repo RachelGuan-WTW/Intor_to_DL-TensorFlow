@@ -49,3 +49,10 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 - 池化:通常跟在卷积层后，降低输出的特征向量，防止过拟合。具体的解释参见[网址](https://blog.csdn.net/danieljianfeng/article/details/42433475)
 - flatten:常用在卷积层到全连接层的过度。具体的解释参见[网址](https://blog.csdn.net/program_developer/article/details/80853425)
 - 全连接层与输出层
+
+
+### 课程的关键网址：
+1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
+2. 官方代码文件：https://github.com/JansonYuan/TensorFlow-Camp
+3. 百度云代码文件：链接：https://pan.baidu.com/s/1tXmTroPwaiD4dPQ7-0o-ag  提取码：e66v
+4. 问题答疑汇总&博客分享:https://shimo.im/docs/pDQrHtycpckcC9qV/
