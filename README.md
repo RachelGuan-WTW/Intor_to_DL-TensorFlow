@@ -39,7 +39,7 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 静态图与动态图的优缺点：静态图C++编译，运行快；动态图使得调试更容易。
 
 
-### 神经网络各层的含义及作用
+### 卷积神经网络各层的含义及作用
 一个完整的神经网络模型通常会包括以下各层：
 - 输入后的第一层+激活函数（卷积层）：
   - 卷积核+偏移：现有的深度学习程序会根据训练数据来自动确定；但我并不了解程序是如何确定的
@@ -50,6 +50,9 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 - flatten:常用在卷积层到全连接层的过度。具体的解释参见[网址](https://blog.csdn.net/program_developer/article/details/80853425)
 - 全连接层与输出层
 
+### 卷积神经网络常用的网络结构
+- [ResNet](https://zhuanlan.zhihu.com/p/31852747)
+- [MobileNet](https://zhuanlan.zhihu.com/p/80154731)
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
