@@ -3,18 +3,6 @@
 课程开始之前有个视频[《一天搞懂深度学习》](https://v.youku.com/v_show/id_XNDM4Mzc4Mjk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_1.dscreenshot)，可以用于深度学习粗了解。
 
 本课程中出现了以下相关知识点：
-### LSTM网络(Long Short-Term Memory)
-RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
-原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)
-
-解释清晰的[网址](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-
-### 全连接层(Fully Connected Layer)
-把分布式特征representation映射到样本标记空间,减少了特征位置对于分类的影响.
-通俗易懂的解释可见[网址](https://zhuanlan.zhihu.com/p/33841176)
-
-另外，附上卷积的讲解[网址](https://www.zhihu.com/question/22298352)
-
 
 ### 神经网络的正向传播与反向传播
 每经过一次前向传播和反向传播之后，就会对参数更新一次；然后循环上面的过程，就是神经网络求解。
@@ -52,9 +40,22 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 - flatten:常用在卷积层到全连接层的过度。具体的解释参见[网址](https://blog.csdn.net/program_developer/article/details/80853425)
 - 全连接层与输出层
 
+
+### 全连接层(Fully Connected Layer)
+把分布式特征representation映射到样本标记空间,减少了特征位置对于分类的影响.
+通俗易懂的解释可见[网址](https://zhuanlan.zhihu.com/p/33841176)
+
+另外，附上卷积的讲解[网址](https://www.zhihu.com/question/22298352)
+
 ### 卷积神经网络常用的网络结构
 - [ResNet](https://zhuanlan.zhihu.com/p/31852747)
 - [MobileNet](https://zhuanlan.zhihu.com/p/80154731)
+
+### LSTM网络(Long Short-Term Memory)
+RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
+中文版原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)，英文版可见[网址](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
