@@ -51,6 +51,9 @@
 - [ResNet](https://zhuanlan.zhihu.com/p/31852747)
 - [MobileNet](https://zhuanlan.zhihu.com/p/80154731)
 
+### Softmax
+softmax是二分类中的sigmoid函数扩充到多分类问题中的对应函数。Softmax函数较简单，可以参见[网址](https://blog.csdn.net/lz_peter/article/details/84574716)
+
 ### LSTM网络(Long Short-Term Memory)
 RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
 中文版原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)，英文版可见[网址](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
