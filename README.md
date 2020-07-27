@@ -69,6 +69,7 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 中文版介绍可见[网址](https://zhuanlan.zhihu.com/p/32481747)，英文版介绍可见[网址](https://d2l.ai/chapter_recurrent-modern/gru.html)
 
+如果选择一个baseline,那么应该使用LSTM。
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
