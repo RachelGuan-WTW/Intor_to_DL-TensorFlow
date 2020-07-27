@@ -58,6 +58,10 @@ softmax是二分类中的sigmoid函数扩充到多分类问题中的对应函数
 RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
 中文版原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)，英文版可见[网址](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
+### GRU(Gate Recurrent Unit)
+RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表现。那相对于LSTM，GRU 'performs similarly to LSTM but is computationally cheaper'.
+
+介绍可见[网址](https://zhuanlan.zhihu.com/p/32481747)
 
 
 ### 课程的关键网址：
