@@ -71,8 +71,10 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 如果选择一个baseline,那么应该使用LSTM。
 
-### Word2Vec
-介绍[网址](https://zhuanlan.zhihu.com/p/26306795)；介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
+### 词向量与Word2Vec
+
+
+Word2Vec介绍[网址](https://zhuanlan.zhihu.com/p/26306795)；介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
