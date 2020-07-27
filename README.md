@@ -72,7 +72,7 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 如果选择一个baseline,那么应该使用LSTM。
 
 ### 词向量与Word2Vec
-
+词向量
 
 Word2Vec介绍[网址](https://zhuanlan.zhihu.com/p/26306795)；介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
 
