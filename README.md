@@ -54,6 +54,12 @@
 ### Softmax
 softmax是二分类中的sigmoid函数扩充到多分类问题中的对应函数。Softmax函数较简单，可以参见[网址](https://blog.csdn.net/lz_peter/article/details/84574716)
 
+### RNN循环神经网络与CNN的异同
+两者都用到了神经元的思想，但是具体实现过程及应用有很大区别。
+
+RNN用于语音识别、NLP、时序预测，根据之前的信息推测未来的信息。
+CNN主要用于图像识别，将图像中的特征识别出来。
+
 ### LSTM网络(Long Short-Term Memory)
 RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习长期依赖信息.
 中文版原理解释可见[网址](https://www.jianshu.com/p/9dc9f41f0b29)，英文版可见[网址](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
@@ -61,7 +67,7 @@ RNN（循环神经网络Recurrent Neural Network）的一种特殊类型,学习�
 ### GRU(Gate Recurrent Unit)
 RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表现。那相对于LSTM，GRU 'performs similarly to LSTM but is computationally cheaper'.
 
-介绍可见[网址](https://zhuanlan.zhihu.com/p/32481747)
+中文版介绍可见[网址](https://zhuanlan.zhihu.com/p/32481747)，英文版介绍可见[网址](https://d2l.ai/chapter_recurrent-modern/gru.html)
 
 
 ### 课程的关键网址：
