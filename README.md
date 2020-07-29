@@ -78,6 +78,7 @@ Word2Vec介绍的网址有：
 - [详细介绍](https://www.cnblogs.com/peghoty/p/3857839.html)<--如果只能看一个介绍，看这个介绍
 - [知乎网址](https://zhuanlan.zhihu.com/p/26306795)
 - 介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
+- [算法cbow与skip-gram的区别](https://www.zhihu.com/question/68112508)
 
 将中文转化为向量的步骤：
 1. 分词:jieba
