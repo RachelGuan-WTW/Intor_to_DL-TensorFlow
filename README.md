@@ -72,9 +72,16 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 如果选择一个baseline,那么应该使用LSTM。
 
 ### 词向量与Word2Vec
-词向量
+词向量:NLP需要将语言进行数字向量化。词向量有两种形式：一种是one-hot representation(向量长度为字典大小，容易受维度灾难，不能刻画词与词之间的相似性),另一种就是distributed representation（向量长度远小于字典大小，距离可以刻画相似性，word2vec是方法之一）。
 
-Word2Vec介绍[网址](https://zhuanlan.zhihu.com/p/26306795)；介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
+Word2Vec介绍的网址有：
+- [详细介绍](https://www.cnblogs.com/peghoty/p/3857839.html)<--如果只能看一个介绍，看这个介绍
+- [知乎网址](https://zhuanlan.zhihu.com/p/26306795)
+- 介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
+
+将中文转化为向量的步骤：
+1. 分词:jieba
+2. 转化为词向量：word2vec
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
