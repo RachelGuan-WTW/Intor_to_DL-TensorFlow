@@ -71,8 +71,26 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 如果选择一个baseline,那么应该使用LSTM。
 
-### Transformer注意力机制
-Self Attention与Multi-head Attention
+### 注意力机制
+- Attention并不是将所有的N个输入信息都输入到神经网络进行计算，只需要从X中选择一些和任务相关的信息输入给神经网络。这个选择过程就是Attention.
+- Self-Attention自注意力模型中Query来源自X。
+介绍[网址](https://zhuanlan.zhihu.com/p/53682800)
+
+### Transformer（参见Attention is All You Need）
+本质上是一个Seq2Seq模型。可以简单理解应用场景为机器翻译。
+- Self Attention
+- Multi-head Attention
+- Positional Encoding
+- 残差单元
+- 输出层：linear+softmax
+- Encoder
+- Decoder
+- 如何训练？
+- 评估指标BLEU
+
+目前我还不太理解如何运作。需要后续多看一看。练习一下使用transformer的框架图。
+
+### Transformer与CNN、RNN的比较
 
 
 ### 词向量与Word2Vec
