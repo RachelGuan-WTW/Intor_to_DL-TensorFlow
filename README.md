@@ -71,6 +71,10 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 如果选择一个baseline,那么应该使用LSTM。
 
+### Transformer注意力机制
+Self Attention与Multi-head Attention
+
+
 ### 词向量与Word2Vec
 词向量:NLP需要将语言进行数字向量化。词向量有两种形式：一种是one-hot representation(向量长度为字典大小，容易受维度灾难，不能刻画词与词之间的相似性),另一种就是distributed representation（向量长度远小于字典大小，距离可以刻画相似性，word2vec是方法之一）。
 
