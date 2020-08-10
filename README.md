@@ -71,6 +71,19 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 如果选择一个baseline,那么应该使用LSTM。
 
+### 词向量与Word2Vec
+词向量:NLP需要将语言进行数字向量化。词向量有两种形式：一种是one-hot representation(向量长度为字典大小，容易受维度灾难，不能刻画词与词之间的相似性),另一种就是distributed representation（向量长度远小于字典大小，距离可以刻画相似性，word2vec是方法之一）。
+
+Word2Vec介绍的网址有：
+- [详细介绍](https://www.cnblogs.com/peghoty/p/3857839.html)<--如果只能看一个介绍，看这个介绍
+- [知乎网址](https://zhuanlan.zhihu.com/p/26306795)
+- 介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
+- [算法cbow与skip-gram的区别](https://www.zhihu.com/question/68112508)
+
+将中文转化为向量的步骤：
+1. 分词:jieba
+2. 转化为词向量：word2vec
+
 ### 注意力机制
 - Attention并不是将所有的N个输入信息都输入到神经网络进行计算，只需要从X中选择一些和任务相关的信息输入给神经网络。这个选择过程就是Attention.
 - Self-Attention自注意力模型中Query来源自X。
@@ -90,21 +103,13 @@ RNN的一种。类似LSTM，可以解决长期记忆的问题，两者实际表�
 
 目前我还不太理解如何运作。需要后续多看一看。练习一下使用transformer的框架图。
 
-### Transformer与CNN、RNN的比较
+### 迁移学习
+因为像图像识别、机器翻译等项目，模型是可复用的，这样子不需要大量的标注数据、训练模型的过程。迁移学习指的是复用模型的过程。
 
+tf.hub就是迁移学习所需要的模块。
 
-### 词向量与Word2Vec
-词向量:NLP需要将语言进行数字向量化。词向量有两种形式：一种是one-hot representation(向量长度为字典大小，容易受维度灾难，不能刻画词与词之间的相似性),另一种就是distributed representation（向量长度远小于字典大小，距离可以刻画相似性，word2vec是方法之一）。
-
-Word2Vec介绍的网址有：
-- [详细介绍](https://www.cnblogs.com/peghoty/p/3857839.html)<--如果只能看一个介绍，看这个介绍
-- [知乎网址](https://zhuanlan.zhihu.com/p/26306795)
-- 介绍Rong Xin论文的[网址](https://zhuanlan.zhihu.com/p/64430221)
-- [算法cbow与skip-gram的区别](https://www.zhihu.com/question/68112508)
-
-将中文转化为向量的步骤：
-1. 分词:jieba
-2. 转化为词向量：word2vec
+### Bert模型
+本质上是文本表示模型。   
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
