@@ -108,8 +108,8 @@ Word2Vec介绍的网址有：
 
 tf.hub就是迁移学习所需要的模块。
 
-### Bert模型
-本质上是文本表示模型。   
+### BERT模型(Bidirectional Encoder Representation from Transformer)
+本质上是文本表示模型。
 
 ### 课程的关键网址：
 1. 老师个人笔记：https://github.com/hecongqing/TensorFlow2.0-Notes
